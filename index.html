@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaaradhi Farms</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container__sec1 {
+  background-color: orange;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14vh;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid grey;
+}
+
+a {
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+i {
+  margin-right: 10px;
+  padding: 2px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+i:hover {
+  color: orange;
+}
+
+/* Heading */
+.head {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+}
+
+.head1 {
+  display: flex;
+  gap: 100px;
+}
+
+/* Section 3 */
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+.container3__sec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Grid Layout */
+.container4 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: auto;
+}
+
+.container4__sec {
+  border-right: 1px solid lightgray;
+  padding: 10px;
+}
+
+.container4__sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.container__sec3 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 30vh;
+  height: 60vh;
+}
+
+/* Rating */
+.rating {
+  color: gold;
+  font-size: 24px;
+  gap: 10px;
+}
+
+.gray {
+  color: lightgray;
+}
+
+/* Footer Section */
+.container5 {
+  background-color: orange;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.container5__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container5__sec {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: white;
+}
+
+/* Remove white border and spacing */
+.container5__sec h1, 
+.container5__sec p {
+  color: white;
+}
+
+.container6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: orange;
+  color: white;
+  
+}
+.container6__sec1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container6__sec2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+</style>
+
+    </head>
+    <body>
+        <section class="container">
+            <section class="container2">
+                <section class="container2__img">
+                <img src="https://vaaradhifarms.com/cdn/shop/files/VF_logo_final-02.png?v=1737443815&width=222">
+            </section>
+
+
+            <section class="container2__a">
+                <a href="#"><b>Home</b> </a>
+                <a href="#"><b>View Collections</b></a>
+                <a href="#"><b>Shop All</b></a>
+                <a href="#"><b>FAQ</b></a>
+                <a href="#"><b>Track your order</b></a>
+                <a href="#"><b>Contact us</b></a>
+            </section>
+                <section class="container__i">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>   
+               </section>
+            </section>
+            
+            <section class="head">  
+                <h3>Shop All</h3>
+            </section>
+
+            <section>
+                <p style="padding: 10px; margin: 20px;">Home / Shop All</p>
+            </section>
+            <section class="container3">
+                <section> <p style="border: 1px solid grey; border-radius: 10px; "> <i style="padding: 10px;" class="fa fa-filter"></i> Filter</p></section>
+                <section class="container3__sec"> 
+                    <h2 style="margin-right: 90px;">80 products</h2>
+                    <p style="margin-right: 20px; font-weight: bold; padding: 20px;"> I  </p>
+                    <p style="margin-right: 20px; font-weight: bold; padding: 20px;"> II </p>
+                    <p style="margin-right: 20px; font-weight: bold; padding: 20px;"> III </p>
+                    <p style="margin-right: 20px; font-weight: bold; padding: 20px;">IV </p>
+                    <button style="margin-right: 50px; height: 60px; width: 160px; border-radius: 20px;"> <i class="fa fa-align-left"></i>
+                              sort by <select>sort by</select></button>
+                </section>
+            </section>
+
+          <section class="container4">
+          <section>
+            <section class="container4__sec">
+              <p>Availability</p>
+              <input type="checkbox" value="In stock"> In stock <br></br>
+              <input type="checkbox" value="Out of stock"> Out of stock
+            </section>
+            <section>
+              <h1>Prices</h1>
+              
+              <input type="range" style="display: flex;">
+              <section class="head1">
+              <h1> To </h1>  <h1> From </h1> 
+              </section>
+              
+          </section>
+            <hr>
+
+            <section>
+               <h1>Collection</h1>
+               <input type="checkbox">Ghee               (0) <br>
+               <input type="checkbox">Honey              (0) <br>
+               <input type="checkbox">Sweets&Snacks      (0) <br>
+               <input type="checkbox">Sweetner And Salts (0) <br>
+            </section>
+
+            <section>
+              <h1>Quantity</h1>
+              <input type="checkbox">125gms  (0) <br>
+              <input type="checkbox">250gms  (0) <br>
+              <input type="checkbox">500gms  (0) <br>
+              <input type="checkbox">1000gms (0) <br>
+            </section>
+            </section>
+            
+
+            <section class="container4__sec2">
+
+            <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/Allampickle1.png?v=1730175392&width=720" style="height: 150px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;">Allam Pickle</h1>
+              <select>
+                <option>1000gm</option>
+                <option>500gm</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>960.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+            </section>
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/20250423_202558_1.png?v=1745565566&width=150" style="height: 150px;">
+              <p class="rating">
+                  ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;">A2 Desi Cultured Cow Ghee</h1>
+              <select>
+                <option>1000ml</option>
+                <option>500ml</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>3490.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/20250405_164532.png?v=1743859831&width=150" style="height: 161px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;">Wild Raw Forest Honey</h1>
+              <select>
+                <option>1kg</option>
+                <option>1/2kg</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>1140.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/Adityark_a_bag_of_a_tan_colored_product_filled_with_turmeric_ki_30bdb482-db0c-4404-8b6c-cb59bec40502.png?v=1685016262&width=150">
+              <p class="rating">
+                  ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;">Unprocessed Natural Turmeric </h1>
+              <select>
+                <option>1/2kg</option>
+                <option>1kg</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>445.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/20250423_202638.png?v=1745565465&width=150" style="height: 150px;">
+              <p class="rating">
+                 ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Small Bee Forest Honey </h1>
+              <select>
+                <option> 500gm </option>
+                <option>1000gm</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>1325.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+               <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/deepixelstudios_wild_turmeric_powder_in_a_pouch_1080x1080_6ffdbe7d-eba2-434a-940f-9d40d1290ee2.png?v=1714064230&width=150">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Forest Turmeric Powder </h1>
+              <select>
+                <option> 250gm </option>
+                <option>500gm</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>1325.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsApp_Image_2024-09-24_at_11.20.47_PM.jpg?v=1727416947&width=150">
+              <p class="rating">
+                  ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Lakshman Phal juice </h1>
+              <select>
+                <option> 500ml </option>
+                <option>1000ml</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>895.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/42bellampowder.png?v=1730945058&width=150">
+              <p class="rating">
+                 ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> jaggrey powder </h1>
+              <select>
+                <option> 1kg </option>
+                <option>1/2kg</option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>190.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/6Jaggery.png?v=1730907747&width=150" style="height: 150px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Jaggrey bar </h1>
+              <select>
+                <option> 1kg </option>
+                <option> 1/2kg </option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>180.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/lgxiwva8_4b0ddc7f-5823-427d-a49c-109a18bda05d.png?v=1731351510&width=150" style="height: 150px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Kobbari Laddu </h1>
+              <select>
+                <option> 1/2kg </option>
+                <option> 1kg </option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>195.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/4.png?v=1731322032&width=150" style="height: 150px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Korra Murukulu </h1>
+              <select>
+                <option> 250gm </option>
+                <option> 500gm </option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>175.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+
+
+
+              <section  class="container__sec3">
+              <img src="https://vaaradhifarms.com/cdn/shop/files/seeds-jar-high-angle.jpg?v=1730872159&width=150" style="height: 150px;">
+              <p class="rating">
+                ★ ★ ★ ★ <span class="gray">★</span>
+              </p>
+
+              <h1 style="font-size: 20px;"> Mustard Seeds(Avalu) </h1>
+              <select>
+                <option> 100gm </option>
+                <option> 500gm </option>
+              </select>
+              
+              <h1> <i class="fa fa-rupee"></i>40.00</h1>
+              <button style= "color: white; height:40px; width:129px; background-color: black;"> Add to Cart</button>
+              </section>
+             </section>
+            </section>
+            <section class="container5">
+
+            <section class="container5__img">
+                  <img src="https://vaaradhifarms.com/cdn/shop/files/VF_logo_final-02.png?v=1737443815&width=100" style="height: 100px;">
+            </section>
+
+            <section class="container5__sec">
+                <section class="container5__sec1">
+                   <h1>Quick links</h1>
+                   <p>Home</p>
+                   <p>View Collections</p>
+                   <p>Shop All</p>
+                   <p>FAQ</p>
+                   <p>Track Your Order</p>
+                   <p>Contact us</p>
+                </section>
+
+               <section class="container5__sec2">
+                  <h1>Customer care</h1>
+                  <p>FAQ</p>
+                  <p>Shipping Policy</p>
+                  <p>Refund Policy</p>
+                  <p>Cancellation Policy</p>
+                  <p>Privacy Policy</p>
+                  <p>Terms of Service</p>
+                  <p>Contact Information</p>
+                  <p>Wild forest Honey certificate</p>
+                  <p>Dark Forest Honey certificate</p>
+               </section>
+             </section>
+
+             <section class="container6">
+                <section class="container6__sec1">
+                     CopyRight © Vaaradhi Farms <br> Built by Ecommified.in
+             </section>
+
+             <section class="container6__sec2">
+            <select>
+              <option>EN</option>
+            </select>
+         </section>
+       </section>
+
+      </section>
+
+
+       </section>
+                </section>
+
+              </section>
+
+
+        </section>
+    </body>
+</html>
